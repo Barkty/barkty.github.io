@@ -1,0 +1,334 @@
+body {
+    background: #077054;
+    color: #315f52;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+#header {
+    margin: 0 auto;
+    max-width: 960px;
+}
+#header h1 {
+    color: #99fa99;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 50px; 
+    font-weight: normal;
+    line-height: 50px;
+    margin-top: 55px;
+    margin-bottom: 2px;
+    padding-top: 1vw;
+    padding-bottom: 0.15px; 
+}
+#header h1 a {
+    color: #99fa99;
+    text-decoration: none;
+}
+#header h2 {
+    color: #b6d8c5;
+    display: block;
+    text-align: center;
+    align-self: flex-start;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 50px;
+    margin-top: 3px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 190px;
+    margin-right: 170px;
+}
+a.navbar {
+    color: #b6d8c5;
+    font-size: 18px;
+    padding: 0 46px;
+    text-decoration: none;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+}
+a.navbar:hover {
+    color: #d3a3ff;
+}
+nav.current {
+    color: #99fa99;
+}
+.navbar:active {
+    color: #99fa99;  
+}
+#main {
+    background-color: #ffffff;
+    min-height: 827px;
+    max-width: 880px;
+    margin-top: 8px;
+    margin-right: 110px;
+    margin-left: 110px;
+    padding: 20px 120px 30px 120px;
+}
+#main div#tagline {
+    float: left;
+	margin: 110px 0 0 25px;
+	max-width: 510px;
+}
+#main div#tagline h1 {
+    color: #21a51e;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    line-height: 1.5em;
+    float: left;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+} 
+#main div#tagline p {
+    color: #21a51e;
+    font-size: 5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    text-align: left;
+    float: left;
+    line-height: 1.2em;
+}
+#main img.img-blend {
+    display: block;
+    float: right;
+    max-width: 100%;
+    width: auto;
+    margin: 78px 38px 46px 38px;
+}
+h3 {
+    color: #376e50;
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1px;  
+    display: grid;
+    justify-self: start;
+}
+h4 {
+    color: rgb(102, 102, 81);
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 0.15em;
+    margin-bottom: 12px;
+}
+img {
+    border: none;
+}
+p {
+    color: rgb(102, 102, 81);
+    line-height: 1.8em;
+    margin-top: 3px;
+}
+img-blend {
+    height: 190cm;
+    width: 100%;
+} 
+footer {
+    margin-left: 120px;
+} 
+
+/* css code for about.html starts here. */
+a.other-pages {
+    color: #315f52;
+}
+a.other-pages:hover {
+    color: #451374;
+} 
+/* css code for about.html ends here.*/
+
+/* css code for contact.html page starts here*/
+.user-inquiries {
+    color: rgb(102, 102, 81);
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 0.25em;
+    margin-bottom: 28px;
+}
+label {
+    margin-bottom: 70px;
+}
+input[type=text] {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 12px 20px;
+    background-color: rgb(207, 204, 204);
+}
+#email {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 12px 20px;
+    background-color: rgb(207, 204, 204);
+}
+textarea {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 12px 20px;
+    background-color: rgb(207, 204, 204);
+}
+#send {
+    width: 8%;
+    height: 8mm;
+    background-color: #376e50;
+    color: rgba(29, 184, 68, 0.685);
+    border-radius: 7px;
+    margin-top: 1px;
+    margin-right: 100px;
+    margin-bottom: 600px;
+    margin-left: 435px;
+}
+#send:hover {
+    color: pink;
+    width: 70px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+/* contact page ends here */
+
+/* css codes for blog page starts here */
+#main-blog {
+    background-color: beige;
+    height: 35cm;
+    width: 50vw;
+    margin-top: 8px;
+    margin-right: 110px;
+    margin-left: 120px;
+    padding: 20px 120px 30px 230px;
+}
+.img-blog {
+/* css codes on all images are not working. */
+    display: flex; 
+    justify-self: self-start;       
+    flex-direction: row-reverse; 
+}
+/* css codes for blog page ends here. */
+
+.foot1 {
+    color: rgba(29, 184, 68, 0.685);
+    font-size: 1.5em;
+}
+.foot2 {
+    color: rgba(220, 220, 220, 0.699);
+    margin-bottom: 100px;
+}
+@media only screen and (max-width: 600px) {
+    #header h1 a {
+        font-size: 0.8em;
+    }
+    #header h2 {
+        font-size: 6vw;
+    }
+    .navbar {
+        display: none;
+    }
+    #sidebar {
+        height: auto;
+        width: 50px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #315f52;
+        overflow: hidden;
+    }
+    #sidebar:hover {
+        display: block;
+    }
+    #main {
+        max-width: 500px;
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: justify;
+        padding: 20px 30px 20px 30px;
+    }
+    #main div#tagline {
+        max-width: 200px;
+        margin: 0 30px 0 1px;
+        font-size: 1.5em;
+    }
+    #main div#tagline h1{
+        margin-left: 0;
+    }
+    #main h4 {
+        line-height: 1.3em;
+    }
+    #send {
+        width: 20%;
+        margin-right: 50px;
+        margin-left: 170px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        padding: 0;
+        margin-right: 25px;
+    }
+    #main-blog {
+        height: auto;
+        width: 290px;
+        text-align: justify;
+        margin-left: 40px;
+        margin-right: 50px;
+        padding: 0 30px 5px 40px;
+    }
+    #main-blog h4 {
+        line-height: 1.4em;
+    }
+    footer {
+        margin-left: 1px;
+    }
+    .foot1 {
+        font-size: 1.3em;
+        padding: 20px 30px 20px 30px;
+    }
+    .foot2 {
+        font-size: 1em;
+        padding: 20px 30px 20px 30px;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    nav {
+        margin-left: 70px;
+    }
+    .navbar {
+        width: 5px;
+    }
+    #header h2 {
+        font-size: 1.8em;
+    }
+    #main {
+        max-width: 600px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 30px 50px 30px 50px;
+    }
+    #main div#tagline {
+        width: 450px;
+        margin: 0 50px 0 2px ;
+    }
+    #main div#tagline h1{
+        font-size: 2em;
+        margin-top: 4px;
+        margin-left: 1px;
+    }
+    #main div#tagline p {
+        font-size: 2em;
+    }
+    #send {
+        width: 20%;
+        margin-left: 220px;
+        margin-right: 50px;
+    }
+    footer {
+        margin-left: 25px;
+    }
+}
